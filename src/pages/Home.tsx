@@ -9,7 +9,7 @@ interface ListType {
 }
 
 const list: ListType[] = [
-  {text: 'Video Test', backgroundColor: '#a0d911', component: 'Video'},
+  {text: 'Monitor Test', backgroundColor: '#a0d911', component: 'Monitor'},
   {text: 'Slider Test', backgroundColor: '#faad14', component: 'Slider'},
   {text: 'BB Test', backgroundColor: '#4096ff', component: 'BB'},
   {text: 'CC Test', backgroundColor: '#13c2c2', component: 'CC'},
@@ -19,7 +19,7 @@ const Home = () => {
   const navigation = useNavigation();
 
   const handleCardPress = (component: string) => {
-    if (component === 'Video' || component === 'Slider') {
+    if (component === 'Monitor' || component === 'Slider') {
       navigation.navigate(component as never);
     }
     // navigation.navigate(component as never);

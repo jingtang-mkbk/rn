@@ -4,7 +4,7 @@ import {Colors} from 'react-native/Libraries/NewAppScreen';
 import {createStaticNavigation} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Home from './pages/Home';
-import Video from './pages/Video';
+import Monitor from './pages/Monitor';
 import Slider from './pages/Slider';
 
 const RootStack = createNativeStackNavigator({
@@ -13,8 +13,8 @@ const RootStack = createNativeStackNavigator({
     Home: {
       screen: Home,
     },
-    Video: {
-      screen: Video,
+    Monitor: {
+      screen: Monitor,
     },
     Slider: {
       screen: Slider,

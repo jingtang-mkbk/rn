@@ -38,9 +38,9 @@ const Slider = () => {
 const styles = StyleSheet.create({
   container: {
     width: '100%',
-    height: 20,
-    backgroundColor: 'gray',
-    borderRadius: 10,
+    height: 5,
+    backgroundColor: '#ddd',
+    borderRadius: 2,
     position: 'relative',
   },
   progressBar: {
